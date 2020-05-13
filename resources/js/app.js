@@ -4,6 +4,9 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
+import '../metronic/tools/webpack/vendors/global';
+import '../metronic/tools/webpack/scripts';
+
 require('./bootstrap');
 
 window.Vue = require('vue');
